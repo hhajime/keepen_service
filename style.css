@@ -1,0 +1,170 @@
+.header {
+    top: 0;
+    width: 100%;
+    height: 9%;
+    min-height: 35px;
+    max-height: 50px;
+    background-color: #003002;
+    position: fixed;
+    float: left;
+}
+
+.logo {
+    width: 15vh;
+    min-width: 90px;
+    max-width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.p{
+    margin-top: 8%;
+    margin-bottom: 1vh;
+    margin-left: 4%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+    font-weight: 400;
+}
+
+.p1{
+    margin-left: 4%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 6vh;
+    font-weight: 700;
+}
+
+.p2{
+    margin-top: 6vh;
+    margin-left: 15%;
+    margin-bottom: 1vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    font-weight: 600;
+}
+
+.p3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    font-weight: 500;
+}
+
+.p4{
+    margin-top: 3vh;
+    margin-left: 15%;
+    margin-bottom: 1vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    font-weight: 600;
+}
+
+.p5{
+    margin-top: 3vh;
+    margin-left: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    font-weight: 600;
+}
+
+.p6{
+    margin-top: 3vh;
+    margin-left: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    font-weight: 600;
+}
+
+.input1{
+    font-size: 4vh;
+    margin-top: 0vh;
+    margin-left: 15%;
+}
+
+.input2{
+    font-size: 4vh;
+    margin-top: 0vh;
+    margin-left: 15%;
+}
+
+.material-icons{
+    margin-top: 1%;
+    margin-right: 2%;
+    font-size: 2%;
+    color: white;
+    float: right;
+}
+/*for css Button */
+.button{
+    margin-top: 6vh;
+    margin-left: 10%;
+    background:#003002;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:12vh;
+    border-radius: 25px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  .button:hover{
+    background:#fff;
+    color:#003002;
+  }
+  .button:before,.button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #003002;
+    transition:400ms ease all;
+  }
+  .button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .button:hover:before,.button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  /* section */
+  section{
+    width: 100%;
+}
+
+  section.left{
+      margin-left: 5vw;
+      margin-top: 10vh;
+      width: 50vw;
+      float: left;
+  }
+
+  section.right{
+      margin-top: 20vh;
+      width: 40vw;
+      float: right;
+  }
+
+  .image1{
+    width: 60vh;
+    margin-top: 1%;
+    margin-left: 2%;
+  }
+
+  .image2{
+    width: 60vh;
+    margin-top: 1%;
+    margin-left: 2%;
+  }

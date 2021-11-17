@@ -1,0 +1,69 @@
+.header {
+    top: 0;
+    width: 100%;
+    height: 9%;
+    min-height: 35px;
+    max-height: 50px;
+    background-color: #003002;
+    position: fixed;
+    float: left;
+}
+
+.logo {
+    width: 15vh;
+    min-width: 90px;
+    max-width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.material-icons{
+    margin-top: 1%;
+    margin-right: 2%;
+    font-size: 2%;
+    color: white;
+    float: right;
+}
+  /* section */
+  section{
+    width: 100%;
+}
+
+.p{
+    margin-top: 8%;
+    margin-bottom: 1vh;
+    margin-left: 4%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+    font-weight: 400;
+}
+
+.p1{
+    margin-bottom: 1vh;
+    margin-left: 8%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    font-weight: 300;
+}
+
+.p2{
+    margin-bottom: 1vh;
+    margin-left: 8%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    font-weight: 300;
+}
+
+.p3{
+    margin-bottom: 1vh;
+    margin-left: 8%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    font-weight: 300;
+}
