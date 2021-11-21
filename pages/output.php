@@ -1,3 +1,10 @@
+<?php include  $_SERVER['DOCUMENT_ROOT']."/keepen_service/db/db.php"; 
+  $electricity = $_POST['electricity']; 
+  $gas = $_POST['gas']; 
+  echo "<script>
+    alert('테스트. $electricity + $gas');
+    </script>";
+?>
 <!DOCTYPE html>
 <html lang = "en">
     <link rel="stylesheet" href="style.css">

@@ -11,6 +11,12 @@
         </style>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
+    <!--js로 값전달-->
+    <script language = "javascript">
+        electricity = input1.value;
+        gas = input2.value;
+        location.href="/pages/output.php?" + electricity + "/" + gas;
+    </script>
     <body class="body" style="overflow: auto;">
         <header class="header">
             <span>
@@ -23,11 +29,15 @@
                 <section class="left">
                     <p class="p">2021년 11월</p>
                     <p1 class="p1">우리집 탄소배출량 알아보기</p1>
+                    <form action="index_ok.php" method="post">
+                    <form action="pages/output.php" method="post">
                     <p class="p2">한달 전기 사용량</p>
-                    <input type="text" placeholder="입력하기" size="10" class="input1"> <p3 class="p3">kwh</p3>
+                    <input type="text" name="electricity" placeholder="입력하기" size="10" class="input1" required> <p3 class="p3">kwh</p3>
                     <p class="p4">한달 도시가스 사용량</p>
-                    <input type="text" placeholder="입력하기" size="10" class="input2"> <p3 class="p3">m3</p>
-                    <button  onclick="location.href= 'pages/output.html'" class="button">저장하기</button>
+                    <input type="text" name="gas" placeholder="입력하기" size="10" class="input2" required> <p3 class="p3">m3</p>
+                    </form>
+                    </form>
+                    <button class="button">저장하기</button>
                     </section>
                 <section class="right">
                     <hr align="left" style="border: solid 2px #003002; width: 90%;">
